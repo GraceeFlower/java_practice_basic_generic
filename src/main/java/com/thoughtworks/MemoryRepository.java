@@ -35,8 +35,8 @@ public class MemoryRepository<I> implements Repository<I> {
     }
 
     @Override
-    public I delete(String id) {
-        return memoryMap.remove(id);
+    public void delete(String id) {
+        memoryMap.remove(id);
     }
 
     @Override
