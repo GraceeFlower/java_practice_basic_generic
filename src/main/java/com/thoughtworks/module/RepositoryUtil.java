@@ -6,6 +6,8 @@ public class RepositoryUtil<E> {
 
     public static <E> void printList(MemoryRepository<E> memory) {
         Collection<E> list = memory.list();
-        System.out.println(list);
+        for (E ele: list) {
+            System.out.println(ele.toString());
+        }
     }
 }
