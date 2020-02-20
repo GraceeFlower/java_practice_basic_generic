@@ -1,5 +1,8 @@
 package com.thoughtworks;
 
+import com.thoughtworks.module.MemoryRepository;
+import com.thoughtworks.module.RepositoryUtil;
+
 public class App {
 
     public static void main(String[] args) {

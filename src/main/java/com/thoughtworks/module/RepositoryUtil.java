@@ -1,4 +1,4 @@
-package com.thoughtworks;
+package com.thoughtworks.module;
 
 import java.util.Collection;
 
